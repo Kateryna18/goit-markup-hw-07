@@ -1,0 +1,39 @@
+.features {
+    @include section;
+}
+
+.features-list {
+    display: flex;
+    gap: 30px;
+}
+
+.features-list__item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.features-list__cotnainer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.features-list__subtitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+
+.features-list__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
